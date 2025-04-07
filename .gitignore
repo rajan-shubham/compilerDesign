@@ -1,0 +1,48 @@
+# === OS-specific files ===
+.DS_Store
+Thumbs.db
+
+# === Build output files ===
+a.out
+*.out
+*.o
+*.obj
+*.exe
+*.stackdump
+
+# === C/C++ compiler files ===
+*.so
+*.dll
+*.dylib
+*.lib
+*.a
+*.lo
+*.la
+*.dep
+
+# === Lex/Yacc (Flex/Bison) generated files ===
+lex.yy.c
+y.tab.c
+y.tab.h
+*.tab.c
+*.tab.h
+
+# === Editor/IDE generated files ===
+*~
+*.swp
+*.swo
+*.tmp
+*.bak
+*.backup
+*.log
+.vscode/
+.idea/
+*.code-workspace
+
+# === Your specific folders/files ===
+p/
+lexer/
+
+# === Other generated executables ===
+*.bin
+*.run

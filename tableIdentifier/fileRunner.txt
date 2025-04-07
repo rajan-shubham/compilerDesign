@@ -1,0 +1,14 @@
+lex symbolTable.l
+gcc lex.yy.c -o lexer
+./lexer
+abc
+Inserted identifier 'abc' at address: 0x5857d0f9b730
+
+a
+Inserted identifier 'a' at address: 0x5857d0f9bb80
+
+abc
+Identifier 'abc' already exists at address: 0x5857d0f9b730
+
+a
+Identifier 'a' already exists at address: 0x5857d0f9bb80
